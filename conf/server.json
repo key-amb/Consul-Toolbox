@@ -1,0 +1,6 @@
+{
+  "server":   true,
+  "data_dir": "/opt/consul",
+  "ui_dir":   "/opt/consul/webui",
+  "bootstrap_expect": 3
+}

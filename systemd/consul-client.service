@@ -1,0 +1,11 @@
+[Unit]
+Description=Consul Agent as Client
+
+[Service]
+User=root
+Group=root
+ExecStart=/opt/consul/script/run-client.sh
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
